@@ -1,0 +1,94 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+.installed.cfg
+*.manifest
+*.spec
+*.log
+*.pot
+*.mo
+*.pyc
+*.coverage
+.coverage.*
+.cache
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# PyInstaller
+*.spec
+
+# ===== Rust =====
+/target/
+**/*.rs.bk
+
+# Cargo specific
+Cargo.lock
+.cargo/
+.cargo_vcs_info.json
+
+# Rust build tools
+*.rlib
+*.rmeta
+
+# Rust logs
+*.log
+
+# ===== Go =====
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of go build
+*.out
+
+# Go workspace directories
+/bin/
+/pkg/
+/vendor/
+
+# Module cache (if you run go mod download in GOPATH mode)
+/go/pkg/mod/
+
+# IDEs and Tools (common for all languages)
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
