@@ -1,6 +1,6 @@
-# Data Structures and Algorithms Study (WIP)
+# Data Structures and Algorithms Study
 
-This repository is a work-in-progress (WIP) collection of data structures and algorithms implemented in **Python**, with plans to expand to **Rust** and **Go**. The goal is to study fundamental computer science concepts and build a portfolio showcasing multi-language proficiency. Python is the starting point to minimize boilerplate and focus on algorithmic logic, with Rust and Go implementations to explore systems programming paradigms.
+This repository is a work-in-progress collection of data structures and algorithms implemented in **Python**, with plans to expand to **Rust** and **Go**. The goal is to study fundamental computer science concepts and build a portfolio showcasing multi-language proficiency. Python is the starting point to minimize boilerplate and focus on algorithmic logic, with Rust and Go implementations to explore systems programming paradigms.
 
 ## Current Status
 The repository currently includes:
