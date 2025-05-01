@@ -9,3 +9,5 @@ The repository currently includes:
 - **Algorithms**:
   - Linear Search (Python): Simple iterative search with O(n) time complexity.
   - Binary Search (Python): Efficient search for sorted arrays with O(log n) time complexity.
+  - Selection Sort (Python): Simple comparison-based sorting algorithm that moves the smallest element of a list and appends it to a new one. O(n^2).
+  - Quicksort (Python): Divide-and-conquer sorting algorithm that works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. O(n log n) with the right 'pivot'.
