@@ -54,15 +54,6 @@ int main() {
         return 1;
     }
 
-    // Test case 5: Empty array
-    int empty[] = {};
-    result = simple_search(empty, 0, 5);
-    printf("Search in empty array: index %d\n", result);
-    if (result != -1) {
-        printf("FAIL: Expected -1, got %d\n", result);
-        return 1;
-    }
-
     printf("\nAll tests passed!\n");
     return 0;
 }

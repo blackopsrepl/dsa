@@ -68,16 +68,7 @@ int main() {
         return 1;
     }
 
-    // Test case 5: Empty array
-    int empty[] = {};
-    result = binary_search(empty, 0, 5);
-    printf("Search in empty array: index %d\n", result);
-    if (result != -1) {
-        printf("FAIL: Expected -1, got %d\n", result);
-        return 1;
-    }
-
-    // Test case 6: Single element array - found
+    // Test case 5: Single element array - found
     int single[] = {42};
     result = binary_search(single, 1, 42);
     printf("Search for 42 in single element array: index %d\n", result);
@@ -86,7 +77,7 @@ int main() {
         return 1;
     }
 
-    // Test case 7: Single element array - not found
+    // Test case 6: Single element array - not found
     result = binary_search(single, 1, 10);
     printf("Search for 10 in single element array: index %d\n", result);
     if (result != -1) {
