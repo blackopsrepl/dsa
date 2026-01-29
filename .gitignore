@@ -82,7 +82,157 @@ Cargo.lock
 # Module cache (if you run go mod download in GOPATH mode)
 /go/pkg/mod/
 
-# IDEs and Tools (common for all languages)
+# ===== Ruby =====
+# Bundler
+/.bundle/
+/vendor/bundle/
+Gemfile.lock
+
+# RVM/rbenv/chruby
+.ruby-version
+.ruby-gemset
+.rvmrc
+
+# Byebug history
+.byebug_history
+
+# IRB/Pry history
+.irb_history
+.pry_history
+
+# RSpec
+.rspec_status
+/coverage/
+/spec/reports/
+
+# SimpleCov
+coverage/
+
+# Yard documentation
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+# Rubocop cache
+.rubocop-*
+
+# Solargraph
+.solargraph.yml
+
+# ===== C =====
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Autotools
+/autom4te.cache/
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+/stamp-h1
+*.in~
+Makefile.in
+
+# Valgrind
+vgcore.*
+*.memcheck
+
+# ===== Emacs Lisp =====
+# Byte-compiled files
+*.elc
+
+# Packaging
+*.tar
+
+# Backup files
+*~
+\#*\#
+.\#*
+
+# Auto-save files
+.#*
+
+# Emacs lock files
+.#*
+
+# Cask
+.cask/
+
+# Eldev
+.eldev/
+
+# Flycheck
+flycheck_*.el
+
+# Directory configuration
+.dir-locals.el
+
+# Network security
+/network-security.data
+
+# Custom settings
+custom.el
+
+# Projectile
+.projectile
+
+# Elpaca/straight.el
+/elpaca/
+/straight/
+
+# ===== IDEs and Tools (common for all languages) =====
 .idea/
 .vscode/
 *.code-workspace
@@ -92,3 +242,38 @@ Cargo.lock
 *.tmp
 *.DS_Store
 Thumbs.db
+
+# Editor backups
+*~
+*.orig
+
+# Tags files
+TAGS
+tags
+.tags
+gtags.files
+GTAGS
+GRTAGS
+GPATH
+
+# ctags
+tags
+!tags/
+
+# cscope
+cscope.*
+ncscope.*
+
+# Core dumps
+core
+core.*
+
+# Logs
+*.log
+
+# Archives (usually shouldn't be committed)
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
